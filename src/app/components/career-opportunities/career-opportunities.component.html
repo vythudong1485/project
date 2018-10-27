@@ -1,0 +1,43 @@
+
+<div class="container">
+  <div class="banner">
+    <img class="img-responsive" src="/assets/images/co-hoi-nghe-nghiep.png" alt="Course banner">
+    <div class="banner-bottom">
+        <img class="img-fluid " src="/assets/images/banner-bottom.png" alt="bottom banner">
+        <h1>
+            <strong class="career">Cơ hội nghề nghiệp</strong>
+        </h1>
+    </div>
+  </div>
+  <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+              <a href="index.html">Trang chủ</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Cơ hội nghề nghiệp</li>
+      </ol>
+  </nav>
+  <div class="row">
+      <div class="col-md-4">
+          <ul class="nav nav-tabs d-none d-md-block">
+              <li class="nav-item">
+                  <a class="nav-link" id="JCenter-tab" (click)="japan = 'one'"
+                     [ngClass]="{'active': japan == 'one'}">Trung
+                      tâm Nhật Bản</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id="QNUniversity-tab" (click)="japan = 'two'"
+                     [ngClass]="{'active': japan == 'two'}">Doanh Nghiệp</a>
+              </li>
+          </ul>        
+      </div>
+   <div class="col-md-8" *ngIf="japan == 'one'">
+     <app-japan-center></app-japan-center>  
+   </div>
+   <div class="col-md-8" *ngIf="japan == 'two'">
+      <app-enterprise></app-enterprise>  
+    </div>
+  </div>
+</div>
+
+

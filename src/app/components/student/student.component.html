@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<div class="container">
+  <div class="panel-group">   
+    <div class="panel panel-danger">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-4">
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  <p><a routerLink="" class="mb-1" (click)="onclick()">Chức Năng</a></p> 
+                </div>
+                <div class="panel-body">
+                   <p><a routerLink="student/schedule" class="mb-1" (click)="onSchedule()">Thời khóa biểu</a></p>
+                   <p><a routerLink="student/course" class="mb-1" (click)="OnCourse()">Thông tin khóa học</a></p> 
+                   <p><a routerLink="student/result" class="mb-1" (click)="onResult()">Kết quả học tập</a></p> 
+                   <p><a routerLink="student/register" class="mb-1" (click)="onRegister()">Đăng ký khóa học</a></p> 
+
+                   <!-- <p><input class="mb-1" type="button" value="Thông tin khóa học"  (click)="OnCourse()"></p>
+                   <p><input class="mb-1" type="button" value="Thời khóa biểu" (click)="onSchedule()"></p>
+                   <p><input class="mb-1" type="button" value="Kết quả học tập" (click)="onResult()"></p>
+                   <p><input class="mb-1" type="button" value="Đăng ký khóa học" (click)="onRegister()"></p> -->
+                </div>              
+              </div>
+          </div>
+          <div class="col-md-8">
+              <div class="panel panel-danger">
+                <div class="panel-heading">{{isshow}}</div>
+                <div class="panel-body">
+                  <div class="container">
+                    <router-outlet></router-outlet>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+  
+

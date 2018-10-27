@@ -1,0 +1,22 @@
+
+
+.section-title {
+    font-size: 24px;
+    font-weight: 800;
+    padding: 28px 50px;
+    background: url(https://japancenter.qnu.edu.vn/images/bg-title.png) no-repeat;
+    background-size: auto;
+    margin-top: 0px;
+    font-family: 'Muli', sans-serif;
+}
+.course-content {
+    padding: 30px;
+    margin: 40px 0 60px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    width: 752px;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+    font-family: 'Muli', sans-serif;
+}

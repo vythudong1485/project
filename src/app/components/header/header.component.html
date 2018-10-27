@@ -1,0 +1,81 @@
+<header>
+  <!--most top info -->
+  <div class="container">
+    <a href="/trang-chu"><img class="logo-main" src="./assets/images/QNUNC-logo.svg" width="60px" height="60px" alt="logo"></a>
+    <div class="name-center">
+      <p class="name"> <a routerLink="/trang-chu">QNU</a> </p>
+      <p class="sub-name"> <a routerLink="/trang-chu">JAPAN CENTER</a> </p>
+    </div>
+    <div class="logo">
+      <div class="dropdown">
+        <img class="flag dropbtn"  src="./../assets/images/vietnam.png" width="20px" height="20px" alt="logo-language">
+        <div class="dropdown-content" id="menu-language">
+          <a href=""> <img src="./../assets/images/vietnam.png" width="20px" height="20px" alt="">Tiếng Việt</a>
+          <a href=""><img src="./../assets/images/japan.png" width="20px" height="20px" alt="">Tiếng Nhật</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <img class="login dropbtn" src="./../assets/images/login.png" width="20px" height="20px"  alt="logo-login">
+        <div class="dropdown-content">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End most top info -->
+  <nav class="navbar  navbar-expand-lg navbar-light top-navbar" data-toggle="sticky-onscroll">
+    <div class="container" id="menu">
+      <!-- Sử dụng thẻ div để nút toggle nằm bên phải, không lệch qua bên trái-->
+      <div></div>
+      <img  id="logo-hide" src="./assets/images/QNUNC-logo.svg" width="60px" height="60px" alt="logo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav float-left">
+          <li class="nav-item">
+            <a class="nav-link" routerLink ="/trang-chu">Trang chủ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  routerLink="/gioi-thieu"  >
+              Giới thiệu<span class="caret"></span></a>
+            <div class="dropdown-content">
+              <a class="dropdown-item" routerLink="/gioi-thieu/trung-tam-nhat-ban">Trung tâm Nhật Bản</a>
+              <a class="dropdown-item" routerLink="/gioi-thieu/truong-dai-hoc-quy-nhon">Trường Đại học Quy Nhơn</a>
+              <a class="dropdown-item" routerLink="/gioi-thieu/quy-nhon-binh-dinh">Quy Nhơn, Bình Định</a>
+              <a class="dropdown-item" routerLink="/gioi-thieu/nhan-su-trung-tam">Nhân sự trung tâm</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/lich-khai-giang">Lịch khai giảng</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" routerLink="/khoa-hoc">Khóa học <span class="caret"></span></a>
+            <div class="dropdown-content">
+              <a class="dropdown-item" routerLink="/khoa-hoc/cac-khoa-tieng-nhat-JLPT">Các khóa tiếng Nhật JLPT</a>
+              <a class="dropdown-item" routerLink="/khoa-hoc/tieng-nhat-cho-thieu-nhi">Tiếng Nhật cho Thiếu nhi</a>
+              <a class="dropdown-item" routerLink="/khoa-hoc/cac-khoa-ky-nang-mem">Các khóa kỹ năng</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tin-tuc-su-kien">Tin tức & Sự kiện</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" routerLink="/dich-vu-doi-tac">Dịch vụ/Đối tác<span class="caret"></span></a>
+            <div class="dropdown-content">
+              <a class="dropdown-item" routerLink="/dich-vu-doi-tac/tu-van-du-hoc-va-viec-lam">Tư vấn du học & việc làm</a>
+              <a class="dropdown-item" routerLink="/dich-vu-doi-tac/xuat-khau-lao-dong">Xuất khẩu lao động</a>
+              <a class="dropdown-item" routerLink="/dich-vu-doi-tac/du-an">Dự án</a>
+              <a class="dropdown-item" routerLink="/dich-vu-doi-tac/doi-tac">Đối tác</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/co-hoi-nghe-nghiep">Cơ hội nghề nghiệp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tai-sao-chon-QNU-Japan-Center">Tại sao chọn QNU Japan Center</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

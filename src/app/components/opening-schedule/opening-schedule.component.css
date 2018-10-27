@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+hr{
+    width:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top:1px solid #eee;
+}
+table{
+    border: 1px solid;
+    width:80%;
+    margin:auto;
+}
+
+th,td{
+    border-top:1px solid lightgray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.973);
+    padding:10px;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+.detail{
+    margin-bottom: 20px;
+}
